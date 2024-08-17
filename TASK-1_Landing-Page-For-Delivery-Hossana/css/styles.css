@@ -1,0 +1,267 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #343a40;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header div {
+    display: flex;
+}
+
+#nav-link {
+    display: flex;
+    justify-content: center;
+}
+
+#ul-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#ul-nav li {
+    margin: 0 15px;
+}
+
+#ul-nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+#ul-nav li a:hover {
+    color: #ffc107;
+}
+
+#about {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url('dh2.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+#about h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#about h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#about h4 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#order {
+    background-color: #ffc107;
+    color: #343a40;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#order:hover {
+    background-color: #e0a800;
+}
+
+#services {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#services h3 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#services ul li {
+    margin: 0 20px;
+    text-align: center;
+}
+
+#services ul li img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#how {
+    padding: 60px 20px;
+    background-color: #f1f1f1;
+}
+
+#how h3 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+#how ol {
+    list-style-type: decimal;
+    padding-left: 40px;
+}
+
+#how li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#testi {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#tes img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#tes strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #343a40;
+    padding: 40px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer a {
+    margin: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    transition: transform 0.3s;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    #about h1 {
+        font-size: 32px;
+    }
+
+    #about h3 {
+        font-size: 20px;
+    }
+
+    #about h4 {
+        font-size: 16px;
+    }
+
+    #services ul li {
+        margin: 10px;
+    }
+
+    #how ol {
+        padding-left: 20px;
+    }
+
+    #how li {
+        font-size: 16px;
+    }
+
+    #order {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #nav-link {
+        flex-direction: column;
+    }
+
+    #ul-nav li {
+        margin: 10px 0;
+    }
+
+    #about h1 {
+        font-size: 28px;
+    }
+
+    #about h3 {
+        font-size: 18px;
+    }
+
+    #about h4 {
+        font-size: 14px;
+    }
+
+    #services h3,
+    #how h3 {
+        font-size: 24px;
+    }
+
+    #order {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    #tes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div {
+        flex-direction: column;
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
+
+    footer ul li {
+        margin: 10px 0;
+    }
+}
