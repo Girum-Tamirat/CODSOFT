@@ -1,0 +1,142 @@
+body {
+    background: #100136;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #f3f2f5;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+header {
+    padding: 18px 0;
+    box-shadow: 2px 2px 10px rgba(90, 216, 244, 0.77);
+    padding: 20px 0;
+    margin: 0 20px;
+}
+header div {
+    display: flex;
+}
+#nav-link {
+    display: flex;
+    justify-content: center;
+}
+li,button, a{
+    text-decoration: none;
+}
+#ul-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+#ul-nav li {
+    margin: 0 20px;
+}
+nav ul li a{
+    color: #7be0f2da;
+}
+#typing {
+    color: #7be0f2da;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+#my_pic{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#html,#css,#js,#react,#java,#cpp{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    padding: auto;
+}
+#skill{
+    padding: 30px;
+}
+#skill-logos{
+    background-color: #120223;
+    box-shadow: 2px 4px 6px rgba(121, 227, 233, 0.484);
+    padding: 20px 0;
+    margin: 0 20px;
+}
+#proj ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.projs{
+    width: 190px;
+    height: 240px;
+    border-radius: 2%;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: #3bc0d2;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+button a{
+    color: #010f13;
+}
+#cont{
+    margin-top: 80px;
+}
+.logo{
+    width: 35px;
+    height: auto;
+    padding: 5px;
+}
+footer{
+    background-color: #120223;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+footer p{
+    margin: 5px 0;
+}
+
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    #ul-nav li {
+        margin: 10px 0;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
