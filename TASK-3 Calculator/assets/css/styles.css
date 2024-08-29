@@ -7,7 +7,7 @@ body{
    background-color: rgb(84, 112, 119);
 }
 main{
-    padding: 20px;
+    padding: 3%;
     background-color: rgb(127, 113, 190);
     border-radius: 10px;
     box-shadow: 0 0 10px;
@@ -23,13 +23,13 @@ textarea#inandout{
     grid-column: span 4;
     height:50px;
     resize: none;
-    padding: 10px;
+    padding: 6%;
     font-size: 1.2em;
     border: 1px solid #fff;
     border-radius: 9px;
 }
 button{
-    padding: 20px;
+    padding: 20%;
     font-size: 1.2em;
     border: none;
     border-radius: 11px;
@@ -43,4 +43,18 @@ button{
 }
 .more{
     background-color: #ff6666;
+}
+@media (max-width: 600px) {
+    button {
+        padding: 10px;
+        font-size: 1em;
+    }
+    textarea#inandout {
+        height: 30px;
+    }
+}
+@media (max-width: 600px) {
+    #container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

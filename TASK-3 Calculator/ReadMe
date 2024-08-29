@@ -1,0 +1,30 @@
+                             Basic Calculator
+
+    A simple and responsive calculator built using HTML, CSS, and JavaScript. This project demonstrates the creation of a basic calculator with arithmetic functionalities and a responsive design that adapts to different screen sizes.
+
+Features
+    Basic Arithmetic Operations: Addition, subtraction, multiplication, and division.
+    Responsive Design: The calculator adjusts to different screen sizes, making it usable on various devices.
+    Error Handling: Basic error handling for division by zero and invalid inputs.
+    Clear and Backspace Functions: Allows users to correct input errors or reset the calculator.
+
+Technologies Used
+    HTML5: For structuring the content.
+    CSS3: For styling the user interface.
+    JavaScript: For adding functionality and handling user interactions.
+
+Setup and Usage
+    1. Clone the Repository:
+    git clone https://github.com/your-username/TASK-3_Calculator.git
+    2. Navigate to the Project Folder:
+    cd TASK-3_Calculator
+    3. Open the index.html file in your preferred web browser.
+    You can simply double-click the index.html file or use a local server to run the project.
+
+Project Structure
+    index.html: The main HTML file that contains the structure of the calculator.
+    assets/css/styles.css: The CSS file that contains all the styling rules for the calculator.
+    assets/js/script.js: The JavaScript file that adds interactivity to the calculator.
+
+Author
+    Girum Tamirat Fuchune

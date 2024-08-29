@@ -1,0 +1,38 @@
+                            Personal Portfolio
+
+    This is a personal portfolio website showcasing the skills, projects, and contact information of Girum Tamirat Fuchune, a passionate and driven Computer Science student. The portfolio is designed to highlight key aspects of his work in front-end development, software engineering, and other areas of expertise.
+
+Project Overview
+    The Personal Portfolio website is a static site that provides an overview of Girum's skills, recent projects, and ways to get in touch. The site is responsive and optimized for different screen sizes, ensuring that it looks great on both desktop and mobile devices.
+
+Features
+    Responsive Design: The site is fully responsive and adjusts to various screen sizes.
+    Dynamic Typing Effect: A typing effect on the homepage that dynamically displays different titles related to Girum's skills.
+    Skills Section: Visual representation of skills with logos for easy identification.
+    Projects Showcase: Displays key projects with images and links to view them.
+    Contact Information: Social media and email links for easy communication.
+
+Technologies Used
+    HTML5: For the structure of the webpage.
+    CSS3: For styling the page and ensuring responsiveness.
+    JavaScript: For adding interactivity, such as the typing effect on the homepage.
+
+Setup and Usage
+    1. Clone the Repository:
+    git clone https://github.com/your-username/TASK-2_Personal-Portfolio.git
+    2. Navigate to the Project Folder:
+    cd TASK-2_Personal-Portfolio
+    3. Open the index.html file in your preferred web browser.
+    You can simply double-click the index.html file or use a local server to run the project.
+
+Project Structure
+    index.html: The main HTML file containing the structure of the portfolio.
+    assets/
+    css/styles.css: The CSS file that styles the portfolio.
+    img/: Folder containing images used in the portfolio (e.g., skill logos, project screenshots, personal photo).
+    js/script.js: JavaScript file for interactivity, including the dynamic typing effect.
+    License
+    This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Author
+    Girum Tamirat Fuchune
